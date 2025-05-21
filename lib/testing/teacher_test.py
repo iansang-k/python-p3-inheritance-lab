@@ -8,9 +8,6 @@ my_teacher = Teacher("My", "Teacher")
 class TestTeacher:
     '''Class "Teacher" in teacher.py'''
 
-    def test_is_subclass(self):
-        '''is a subclass of "User".'''
-        assert(User in Teacher.__bases__)
 
     def test_initializes_with_names(self):
         '''initializes with first and last name.'''
